@@ -121,10 +121,13 @@ def main():
 
     save_and_push(articles_data)
 
-    kakao_text = "\n".join(kakao_lines)
-    kakao_text += "\n자세히 보기: https://chonghuikim.github.io"
     print("카카오톡 전송 중...")
-    send_kakao_message(kakao_text)
+    top3 = articles_data[:3]
+    lines = [f"📰 AI 뉴스 TOP 3 ({datetime.now().strftime('%Y-%m-%d')})"]
+    for i, article in enumerate(top3, 1):
+        lines.append(f"\n{i}. {article['title']}\n{article['summary']}")
+    lines.append("\n자세히 보기: https://chonghuikim.github.io")
+    send_kakao_message("\n".join(lines))
     print("카카오톡 전송 완료")
 
     print("파이프라인 완료!")
