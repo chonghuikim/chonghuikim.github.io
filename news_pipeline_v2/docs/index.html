@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI 뉴스 대시보드</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f5f5f0; color: #1a1a1a; }
+  header { background: #1a1a2e; color: #fff; padding: 24px 32px; }
+  header h1 { font-size: 22px; font-weight: 500; }
+  header p { font-size: 13px; color: #aaa; margin-top: 4px; }
+  main { max-width: 600px; margin: 32px auto; padding: 0 16px; }
+  .section-title { font-size: 13px; font-weight: 500; color: #888; margin-bottom: 12px; text-transform: uppercase; letter-spacing: 0.05em; }
+  .date-card { background: #fff; border: 1px solid #e8e8e0; border-radius: 12px; padding: 18px 22px; margin-bottom: 10px; display: flex; align-items: center; justify-content: space-between; cursor: pointer; text-decoration: none; color: inherit; transition: border-color 0.15s; }
+  .date-card:hover { border-color: #4a90d9; }
+  .date-label { font-size: 16px; font-weight: 500; }
+  .date-sub { font-size: 12px; color: #888; margin-top: 3px; }
+  .arrow { font-size: 18px; color: #ccc; }
+  .empty { text-align: center; padding: 60px; color: #888; font-size: 14px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>AI 뉴스 대시보드</h1>
+  <p>매일 오전 9시 자동 업데이트 · EXAONE 요약</p>
+</header>
+<main>
+  <div class="section-title">날짜별 뉴스</div>
+  <div id="list"><div class="empty">불러오는 중...</div></div>
+</main>
+<script>
+const WEEKDAYS = ['일', '월', '화', '수', '목', '금', '토'];
+fetch('./index.json')
+  .then(r => r.json())
+  .then(data => {
+    const list = document.getElementById('list');
+    if (!data.dates || data.dates.length === 0) {
+      list.innerHTML = '<div class="empty">아직 뉴스가 없습니다.</div>';
+      return;
+    }
+    list.innerHTML = '';
+    data.dates.forEach(date => {
+      const d = new Date(date);
+      const day = WEEKDAYS[d.getDay()];
+      const label = `${date} (${day})`;
+      const card = document.createElement('a');
+      card.className = 'date-card';
+      card.href = `./${date}/`;
+      card.innerHTML = `
+        <div>
+          <div class="date-label">${label}</div>
+          <div class="date-sub">AI 뉴스 10건 요약</div>
+        </div>
+        <div class="arrow">›</div>`;
+      list.appendChild(card);
+    });
+  })
+  .catch(() => {
+    document.getElementById('list').innerHTML = '<div class="empty">데이터를 불러올 수 없습니다.</div>';
+  });
+</script>
+</body>
+</html>
