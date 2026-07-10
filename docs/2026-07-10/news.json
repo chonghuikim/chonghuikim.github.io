@@ -1,0 +1,76 @@
+{
+  "updated": "2026-07-10 14:13 UTC",
+  "date": "2026-07-10",
+  "articles": [
+    {
+      "title": "가트너가 주목한 에이전틱 AI 기업…큐빅, 글로벌 혁신기업 4곳에 국내 유일 선정",
+      "summary": "큐빅이 가트너의 에이전틱 AI 혁신기업 보고서에서 국내 기업으로는 처음으로 선정되었다. 이 회사는 AI-Ready 데이터 기술을 활용해 보험 분야의 AI 분류 정확도를 향상시켰으며, 통합 데이터 플랫폼 'Syntitan'을 통해 글로벌 시장 진출을 확대할 예정이다.",
+      "url": "https://www.venturesquare.net/1097608/",
+      "source": "Venturesquare.net",
+      "publishedAt": "2026-07-09T12:31:21Z"
+    },
+    {
+      "title": "“AI가 아닌 크리에이터가 경쟁력”…자이언트스텝, AI 시대 콘텐츠 제작 전략 공개",
+      "summary": "자이언트스텝은 'Artistic Intelligence' 컨퍼런스를 통해 생성형 AI 시대의 콘텐츠 제작 전략을 발표하고, 자체 AI 운영 시스템 'TabTo'를 공개했다. 회사는 AI 기술을 활용해 크리에이터의 창의성을 더욱 강화하는 새로운 운영 방식을 통해 경쟁력을 확보할 계획이다.",
+      "url": "https://www.venturesquare.net/1097553/",
+      "source": "Venturesquare.net",
+      "publishedAt": "2026-07-09T12:02:26Z"
+    },
+    {
+      "title": "법률 AI 성능 가른 건 ‘추론’…로앤컴퍼니, 세계 최고 AI 학회서 입증",
+      "summary": "로앤컴퍼니는 ICML 2026 AI4Law 워크숍에서 법률 AI의 성능 향상에 있어 '추론 과정'의 중요성을 입증하는 연구 결과를 발표했다. 연구를 통해 소형 AI 모델의 정확도가 11.7%포인트 상승하여 법률 AI의 발전 가능성을 보여주었다.",
+      "url": "https://www.venturesquare.net/1097458/",
+      "source": "Venturesquare.net",
+      "publishedAt": "2026-07-09T11:16:31Z"
+    },
+    {
+      "title": "‘비정형 공정’ 자동화에 도전…네오아크로보틱스, 퓨처플레이 투자 유치",
+      "summary": "네오아크로보틱스가 퓨처플레이로부터 5억원의 시드 투자를 받아 비정형 작업 자동화를 위한 피지컬 AI 로봇 기술을 발전시키고 있으며, 향후 미국 조선 시장 진출을 목표로 하고 있다. HD현대중공업 및 한화오션에서 기술 검증을 완료한 상태이다.",
+      "url": "https://www.venturesquare.net/1097431/",
+      "source": "Venturesquare.net",
+      "publishedAt": "2026-07-09T11:02:27Z"
+    },
+    {
+      "title": "전원 걱정 없는 야외 보안…티피링크, 태양광 4K 카메라 선보여",
+      "summary": "티피링크가 태양광 패널을 장착한 4K 스마트 보안 카메라 'Tapo C465'를 출시했습니다. 이 카메라는 하루 50분의 햇빛만으로도 24시간 작동 가능하며, 강력한 온디바이스 AI와 장시간 배터리 수명을 통해 야외 보안 솔루션을 혁신적으로 개선했습니다.",
+      "url": "https://www.venturesquare.net/1097404/",
+      "source": "Venturesquare.net",
+      "publishedAt": "2026-07-09T10:34:59Z"
+    },
+    {
+      "title": "“AI가 답을 줄수록 질문이 중요해진다”…교육의 본질 묻는 콘서트 열린다",
+      "summary": "AI 발전 속에서 교육의 본질에 대해 논의하는 '2026 교육콘서트'가 정동1928아트센터에서 열린다. 노소영 관장, 장동선 박사, 최진석 교수는 AI 시대의 미래 교육 방향과 인간 고유 역량의 중요성을 제시할 예정이다.",
+      "url": "https://www.venturesquare.net/1097337/",
+      "source": "Venturesquare.net",
+      "publishedAt": "2026-07-09T05:33:58Z"
+    },
+    {
+      "title": "오디엔, 당뇨병 DTx 국책과제 2건 동시 선정…인허가 본격 추진",
+      "summary": "오디엔이 당뇨병 관련 디지털치료기기 국책과제에 두 건 모두 선정되어 식약처 인허가를 중심으로 본격적인 사업화를 추진한다. 이를 통해 국내 디지털치료기기 시장에서의 경쟁력을 강화할 계획이다.",
+      "url": "https://www.venturesquare.net/1097158/",
+      "source": "Venturesquare.net",
+      "publishedAt": "2026-07-08T11:34:10Z"
+    },
+    {
+      "title": "[VS 현장] “AI가 오피스를 줄인다? 오히려 더 커진다”…스파크플러스가 본 AI 시대 공간의 역설",
+      "summary": "스파크플러스는 AI 기술이 예측 불가능성을 증가시켜 오히려 유연한 업무 공간에 대한 수요를 늘릴 것으로 분석했습니다. 이에 따라 공유 오피스 시장에서 직영에서 위탁운영 및 프랜차이즈 확대를 통한 전략적 변화를 추진하고 있습니다.",
+      "url": "https://www.venturesquare.net/1096903/",
+      "source": "Venturesquare.net",
+      "publishedAt": "2026-07-08T09:42:42Z"
+    },
+    {
+      "title": "에이치씨엘테크, 책임 있는 AI 분야 리더십 입증하며 ISO/IEC 42001:2023 인증 획득",
+      "summary": "에이치씨엘테크가 책임 있는 인공지능 관리 시스템으로 ISO/IEC 42001:2023 인증을 획득하며 리더십을 입증했습니다. 이 인증은 회사의 AI Force 플랫폼을 포함한 강력한 거버넌스와 관리 시스템을 인정받은 결과입니다.",
+      "url": "https://zdnet.co.kr/view/?no=20260708181003",
+      "source": "Zdnet.co.kr",
+      "publishedAt": "2026-07-08T09:10:03Z"
+    },
+    {
+      "title": "땡스카본, 중기부·AWS 동시 낙점…AI 탄소검증 기술 글로벌 무대 오른다",
+      "summary": "땡스카본이 중기부 '초격차 스타트업'과 AWS '정글 프로그램'에 선정되어 AI 기반 탄소 검증 기술의 우수성을 입증했다. 회사는 위성 AI 기술을 활용한 '헤임달' 솔루션을 통해 글로벌 탄소시장 진출을 가속화할 계획이다.",
+      "url": "https://www.venturesquare.net/1096946/",
+      "source": "Venturesquare.net",
+      "publishedAt": "2026-07-08T06:37:56Z"
+    }
+  ]
+}
